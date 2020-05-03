@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>MyFlaskApp</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+   </head>
+   <body>
+      {% include 'nav_bar.html' %}
+      <div class="container">
+            
+      <br>
+
+      All
+
+      
+
+
+      <br>
+
+      <ol> 
+         <!-- For loop logic of jinja template -->
+         {%for i in range(0, 6)%} 
+           
+             <li>{{online_users[i]['username']}}</li> 
+
+         {%endfor%} 
+           
+         </ol> 
+
+
+      </div>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+      </script>
+   </body>
+</html>
