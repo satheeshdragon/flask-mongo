@@ -1,8 +1,5 @@
 backports.functools-lru-cache==1.6.1
 beautifulsoup4==4.9.0
-cliapp==1.20170827
-click==7.1.2
-cmdtest==0.32
 configobj==5.0.6
 dnspython==1.16.0
 Flask==1.1.2
@@ -11,8 +8,6 @@ itsdangerous==1.1.0
 Jinja2==2.11.2
 Markdown==2.6.9
 MarkupSafe==1.1.1
-pushbullet-commons==0.5.6
-pushbullet-indicator==0.6.3
 pycairo==1.16.2
 pycrypto==2.6.1
 pygobject==3.26.1
