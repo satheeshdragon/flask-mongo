@@ -20,7 +20,7 @@ pymongo==3.10.1
 pyparted==3.11.1
 python-apt==1.6.3
 python-xlib==0.20
-pyxdg==0.25
+pyxdg==0.26
 PyYAML==3.12
 setproctitle==1.1.10
 six==1.11.0
